@@ -17,14 +17,15 @@ pip install streamlit mysql-connector-python pymongo pandas openpyxl
    * Create and populate the customers database in MySQL.
    * Create and populate the Customers database/customers collection in MongoDB.
 
-#python Data_loader.py
+python Data_loader.py
 
 Running the Application
 Execute the Streamlit application:
-#streamlit run App.py
+
+streamlit run App.py
 
 The app will open in your default browser (e.g., http://localhost:8501).
-🖥️ Usage
+Usage:
 How to Query
  * Select Database: Use the sidebar radio button to choose either MySQL or MongoDB.
  * Enter Query:
